@@ -10,7 +10,7 @@ mongoose.connect('mongodb+srv://ibou98:7tyvpJj7Ln69ryLn@cluster0.osf58.mongodb.n
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
-  .then(() => console.log('Connexion à MongoDB réussie !'))
+  .then(() => console.log('Connexion à Mongo_DB réussie !'))
   .catch(() => console.log('Connexion à MongoDB échouée !'));
 
 

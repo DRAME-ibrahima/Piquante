@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 
 mongoose.connect('mongodb+srv://ibou98:7tyvpJj7Ln69ryLn@cluster0.osf58.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
   useNewUrlParser: true,
-  useUnifiedTopology: false
+  useUnifiedTopology: true
 })
   .then(() => console.log('Connexion à Mongo_DB réussie !'))
   .catch(() => console.log('Connexion à MongoDB échouée !'));

@@ -1,4 +1,4 @@
-const express = require('express')
+const express = require('express');
 const mongoose = require('mongoose');
 const sauceRoutes = require('./routes/sauce');
 const userRoutes = require('./routes/User');
